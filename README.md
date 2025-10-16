@@ -8,6 +8,83 @@
 
 A modern, fully-tested **Arabic Todo application** built with **React 19**, featuring comprehensive **end-to-end testing with Playwright** and **full cross-browser compatibility**.
 
+# React App Functional & UI Testing
+
+## Project Overview
+**Goal:** Test a small React to-do list or e-commerce demo application  
+**Tools & Skills:** Playwright/Cypress, UI Automation, Test Planning, Cross-Browser Testing
+
+---
+
+## Test Scenarios & Cases
+
+### 1. To-Do Item Management
+
+#### Test Case 1: Add New Item
+- **Description:** Verify users can add new items to the to-do list
+- **Steps:**
+  1. Navigate to application
+  2. Enter item text in input field
+  3. Click "Add" button or press Enter
+- **Expected Result:** New item appears in list with "Incomplete" status
+
+#### Test Case 2: Edit Existing Item
+- **Description:** Verify users can modify existing to-do items
+- **Steps:**
+  1. Click edit icon/pencil next to item
+  2. Modify text in edit field
+  3. Save changes
+- **Expected Result:** Item text updates accordingly
+
+#### Test Case 3: Delete Item
+- **Description:** Verify users can remove items from list
+- **Steps:**
+  1. Click delete icon/trash can next to item
+  2. Confirm deletion if prompted
+- **Expected Result:** Item removed from list
+
+#### Test Case 4: Mark Item Complete
+- **Description:** Verify users can toggle item completion status
+- **Steps:**
+  1. Click checkbox/toggle next to item
+- **Expected Result:** Item shows visual completion indicator (strikethrough/checked)
+
+### 2. End-to-End User Flows
+
+#### Scenario 1: Complete User Session (To-Do App)
+1. **Login** with valid credentials
+2. **Create** multiple to-do items
+3. **Mark** several items as complete
+4. **Edit** one existing item
+5. **Delete** one item
+6. **Verify** final list state matches expectations
+7. **Logout** from application
+
+#### Scenario 2: E-commerce Demo Flow
+1. **Login** to application
+2. **Browse** product catalog
+3. **Add** items to shopping cart
+4. **Proceed** to checkout
+5. **Complete** purchase process
+6. **Verify** order confirmation
+7. **Logout**
+
+---
+
+## Cross-Browser Testing Matrix
+
+| Browser | Version | OS Compatibility | Status |
+|---------|---------|------------------|--------|
+| Chrome | Latest | Windows, macOS, Linux | ✅ Supported |
+| Firefox | Latest | Windows, macOS, Linux | ✅ Supported |
+| Safari | Latest | macOS | ⚠️ Conditional |
+| Edge | Latest | Windows | ✅ Supported |
+
+**Testing Focus:**
+- UI consistency across browsers
+- Functional behavior parity
+- Responsive design validation
+
 ---
 
 ## 🌟 Live Demo & Screenshots
@@ -89,3 +166,6 @@ todo-app/
 ├── playwright.config.js    # Playwright configuration
 ├── package.json            # Project dependencies and scripts
 └── README.md               # Project documentation
+
+
+
