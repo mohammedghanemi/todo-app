@@ -13,15 +13,15 @@ A modern, fully-tested **Arabic Todo application** built with **React 19**, feat
 ## 🌟 Live Demo & Screenshots
 
 ### **Application Overview**
-![Login Interface](C:\Users\Fujitsu\Desktop\QA-Preparing\todo-app\Images\onee.png)  
+![Login Interface](./Images/onee.png)
 Arabic-friendly login interface with clean, modern design.
 
 ### **Main Application**
-![Todo Interface](C:\Users\Fujitsu\Desktop\QA-Preparing\todo-app\Images\twoo.png)  
+![Todo Interface](./Images/twoo.png) 
 Main todo management interface with task statistics and intuitive controls.
 
 ### **Test Results**
-![Test Results](C:\Users\Fujitsu\Desktop\QA-Preparing\todo-app\Images\screen1.png)  
+![Test Results](./Images/screen1.png)  
 Comprehensive test reports with **100% success rate** across Chrome and Firefox.
 
 ---
